@@ -1,8 +1,19 @@
-
+# Ignorar diretórios gerados pelo Bazel
 bazel-*
+
+# Ignorar arquivos gerados pelo Bazel
 *.bazel-*
 *.bzl-*
 *.bzl.runfiles-*
 *.bzl.runfiles/
 *.runfiles-*
 *.runfiles/
+*.o
+*.pdb
+*.gcda
+*.gcno
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+
+bazel-*
+*.bazel-*
+*.bzl-*
+*.bzl.runfiles-*
+*.bzl.runfiles/
+*.runfiles-*
+*.runfiles/
